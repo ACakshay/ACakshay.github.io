@@ -131,9 +131,9 @@ color: #e86e36;
 .textcontact  {
 	
 	float: right;
-	position: relative;
-	top: 50%;
-	left: 25%;
+	position: absolute;
+	top: 60%;
+	left: 55%;
 	display: inline;
 
 	
