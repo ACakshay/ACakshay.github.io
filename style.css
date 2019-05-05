@@ -260,3 +260,15 @@ transition: 0.1s;
 	padding: 10px;
 	margin-left: 2px;
 }
+.fas{
+	visibility: hidden;
+	font-size: 0px
+}
+li:hover > .fas{
+	visibility: visible;
+	font-size: 90px;
+}
+li:hover > .intr{
+	visibility: hidden;
+	font-size: 90px;
+}
