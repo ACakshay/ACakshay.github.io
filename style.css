@@ -306,12 +306,13 @@ li:hover > .intr{
 	padding: 10px;
 	overflow: hidden;
 	font-size:140%;
+	text-align: center;
 	}
 	nav ul li
 	{
 		width: 100%;
 	}
-	body{background-color: red;}
+	
 	img{
 		height: 100px;
 	width: 100px;
@@ -331,4 +332,6 @@ left: 0px;
 top: 0px;
 	/*transform:rotateZ(180deg);*/
 	/*left: 1.2%;*/}
+	.links{font-size: 151%;
+	}
 }
