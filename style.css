@@ -261,9 +261,11 @@ transition: 0.1s;
 .int{
 	visibility: visible;
 	font-size: 36px;
+	padding: 10px;
+	margin:10px;
 }
 .intr:hover + .int{
-	font-size: 60px
+	font-size: 50px
 	visibility:visible;
 	padding: 10px;
 	margin-left: 2px;
@@ -275,10 +277,11 @@ transition: 0.1s;
 li:hover > .fas{
 	visibility: visible;
 	font-size: 90px;
+	text-align: center;
 }
 li:hover > .intr{
 	visibility: hidden;
-	font-size: 90px;
+	font-size: 0px;
 }
 @keyframes lr {
 	0%{transform: rotateY(180deg);opacity: 0;}
@@ -293,6 +296,9 @@ li:hover > .intr{
 
 }
 
+#visible .fa-at
+{visibility: visible !important;
+}
 
 
 
@@ -553,7 +559,7 @@ font-size:50px;
 	margin-left: 2px;
 }
 .fas{
-	visibility: hidden;
+	visibility: visible;
 	font-size: 0px
 }
 li:hover > .fas{
