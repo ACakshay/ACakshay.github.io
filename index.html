@@ -8,9 +8,9 @@
 	<link rel="stylesheet" type="text/css" href="style.css">
 	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 </head>
-<body>
+<body onload="load()">
 	
-	
+	<div id="loading"></div>
 <!-- <div class="heading">Akshay Chordia</div> -->
 <nav>	
 <ul>	
@@ -27,6 +27,13 @@
 	<!-- <span class="heading">Akshay Chordia</span></article> -->
 	<p class="text">Hello! <br><font>I am <strong>Akshay Chordia</strong></font><br>
 		I am an undergraduate of department of Chemistry Pursuing Integrated M.Sc from IIT Kharagpur</p>
+		<script>
+			var preloader=document.getElementById('loading');
+			function load() {
+				preloader.style.display='none';
+			}
+
+		</script>
 
 </body>
 </html>
