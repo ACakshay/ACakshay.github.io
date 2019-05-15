@@ -17,14 +17,14 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	animation-name: loder;
-	animation-duration: 2s;
+	animation-duration: 1s;
 	animation-iteration-count: infinite;
 
 }
 @keyframes loder{
-	0%{opacity: 0;}
-	50%{opacity: 1;}
-	100%{opacity: 0;}
+0%{opacity: 1;}
+	50%{opacity: 0;}
+	100%{opacity: 1;}
 }
 img{
 	height: 200px;
