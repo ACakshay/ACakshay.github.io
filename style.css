@@ -9,14 +9,20 @@ body{
 	 align-items: center;
 }
 #loading{
-	
+	height: 100vh;
+	width: 100%;
 	z-index: 999999;
-	background-color: #e3f4fd
+	background-color: #e3f4fd;
+	align-items:center;
+	align-content: center;
 	
+	}
+#loading img{
+	align-self: center;
+	transform: translate(50vh,50%);
 }
 
-
-img{
+.dp{
 	height: 200px;
 	width: 200px;
 	
@@ -38,7 +44,7 @@ img{
 	animation-fill-mode: backwards;
 	transition-duration: 0.4s;
 }
-img:hover{
+.dp:hover{
 	border-radius: 1px;
 	transform: scale(1.7);
 
@@ -379,7 +385,7 @@ li:hover > .intr{
 		width: 100%;
 	}
 	
-	img{
+	.dp{
 		height: 100px;
 	width: 100px;
 	align-self: center;

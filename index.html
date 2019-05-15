@@ -9,9 +9,9 @@
 	<link href="https://fonts.googleapis.com/css?family=Sofia" rel="stylesheet">
 	<link href="https://fonts.googleapis.com/css?family=EB+Garamond" rel="stylesheet">
 </head>
-<body onload="load()">
+<body  onload="load();al()">
 	
-	<img  src="loder.gif" id="loading">
+	<div id="loading"><img  src="loder.gif" align="center" ></div>
 <!-- <div class="heading">Akshay Chordia</div> -->
 <nav>	
 <ul>	
@@ -24,7 +24,7 @@
 	
 </ul>
 	</nav>
-	<img src="me.jpg" >
+	<img src="me.jpg" class="dp">
 	<!-- <span class="heading">Akshay Chordia</span></article> -->
 	<p class="text">Hello! <br><font>I am <strong>Akshay Chordia</strong></font><br>
 		I am an undergraduate of department of Chemistry Pursuing Integrated M.Sc from IIT Kharagpur</p>
@@ -32,6 +32,9 @@
 			var preloader=document.getElementById('loading');
 			function load() {
 				preloader.style.display='none';
+			}
+			function al(){
+				alert("loaded succesfully")
 			}
 
 		</script>
