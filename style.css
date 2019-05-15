@@ -96,7 +96,7 @@ a{
 }
 
 .heading{
-	font-family: 'Sofia', cursive;
+font-family: 'EB Garamond', serif;
 	/*margin-left: 20px;
 	padding-left: 10px;*/
 	font-size: 180%;
@@ -116,7 +116,7 @@ a{
 	left: 60%; 
 	margin: 30px;
 	font-size:200%;
-	font-family: 'Sofia', cursive;
+	font-family: 'EB Garamond', serif;
 	transition: 0.3s;
 	clear: none;
 		animation-name: rl;
