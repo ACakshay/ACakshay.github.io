@@ -447,7 +447,7 @@ color: #e86e36;
 
 	align-content: center;
 	position: relative;
-	top: 0%;
+	height: 50%;
 	left: 0px;
 	margin: 15px;
 	width:90vw;
@@ -527,10 +527,12 @@ transition: 0.1s;
 	
 	float: right;
 	position: relative;
-	top: 0px;
-	left: 0px;
+	justify-content: center;
+	margin:auto;
+bottom: -117px;
+	
 	display: inline;
-
+left: -14%;
 	
 }
 .textcontact ul{
@@ -539,14 +541,16 @@ transition: 0.1s;
 }
 .textcontact ul a{
 	color:#2e2e2e;
-padding: 30px;
-font-size:50px;
+
+font-size:20px;
+
+
 
 }
 .textcontact ul a:hover{
 	color:rgb(10,110,200);
 
-font-size:50px;
+font-size:30px;
 
 
 }
@@ -584,5 +588,11 @@ li:hover > .fas{
 li:hover > .intr{
 	visibility: hidden;
 	font-size: 10px;
+}
+pre{
+	display: none;
+}
+.dp{
+	display: none;
 }
 }
