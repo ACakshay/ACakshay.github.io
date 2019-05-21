@@ -46,7 +46,7 @@ body{
 }
 .dp:hover{
 	border-radius: 1px;
-	transform: scale(1.7);
+	transform: scale(1.4);
 
 }
 .links{
@@ -594,5 +594,9 @@ pre{
 }
 .dp{
 	display: none;
+}
+.dp:hover{
+	transform: scale(1.2);
+	border-radius: 1px;
 }
 }
