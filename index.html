@@ -13,6 +13,7 @@
 	
 	<div id="loading"><img  src="loder.gif" align="center" ></div>
 <!-- <div class="heading">Akshay Chordia</div> -->
+<div id="body" style="display: none;">
 <nav>	
 <ul>	
 		<a href="contact.html"><li class="links">Contact</li></a>
@@ -28,11 +29,14 @@
 	<!-- <span class="heading">Akshay Chordia</span></article> -->
 	<p class="text">Hello! <br><font>I am <strong>Akshay Chordia</strong></font><br>
 		I am an undergraduate of department of Chemistry Pursuing Integrated M.Sc from IIT Kharagpur</p>
+	</div>
 		<script>
 			var preloader=document.getElementById('loading');
+			var bod=document.getElementById('body');
 			function load() {
 				preloader.style.display='none';
-				alert("loaded succesfully");
+				bod.style.display='block';
+
 			}
 			function al(){
 				
