@@ -1,0 +1,55 @@
+<html>
+<body>
+<h1>How to access files from computer anywhere over internet in RealTime</h1>
+<h6>Requirements:</h6>
+<ul>
+<li><a href='https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related?hl=en'>Web Server for Chrome</a></li>
+<li><a href='https://bin.equinox.io/c/4VmDzA7iaHb/ngrok-stable-windows-amd64.zip'>Ngrok</a></li>
+
+</ul>
+<p>	</p>
+<h6>Procedure:</h6>
+<ol>
+<li><p>Open <a href='https://chrome.google.com/webstore/detail/web-server-for-chrome/ofhbbkphhbklhfoeikjpcbhemlocgigb/related?hl=en'>Web Server for Chrome</a> ,install it and launch it.</p>
+<p><img src="file://C:/Users/Akshay%20Chordia/AppData/Roaming/Typora/typora-user-images/image-20191122121237214.png" referrerpolicy="no-referrer" alt="image-20191122121237214"></p>
+</li>
+
+</ol>
+<p> </p>
+<p>2.Click on choose folder and select drive you want to access (e.g. here I selected E drive)</p>
+<p>3.set port to 2604</p>
+<p>	<img src="file://C:/Users/Akshay%20Chordia/AppData/Roaming/Typora/typora-user-images/image-20191122121743707.png" referrerpolicy="no-referrer" alt="image-20191122121743707"></p>
+<p>Set all the things as shown in ScreenShot</p>
+<p>	It will show you 2 link ( <a href='http://127.0.0.1:2604/'>http://127.0.0.1:2604</a> , <a href='http://10.147.248.130:2604/'>http://10.147.248.130:2604</a> )2nd link might be diffrent in your case</p>
+<p>open <a href='http://127.0.0.1:2604/'>http://127.0.0.1:2604</a>  in your browser</p>
+<p>2nd link is to access files on same network</p>
+<p>it will show up like this</p>
+<p><img src="file://C:/Users/Akshay%20Chordia/AppData/Roaming/Typora/typora-user-images/image-20191122122818335.png" referrerpolicy="no-referrer" alt="image-20191122122818335"></p>
+<ol start='4' >
+<li><p>download Ngrok and extract it</p>
+<p><img src="file://C:/Users/Akshay%20Chordia/AppData/Roaming/Typora/typora-user-images/image-20191122122940130.png" referrerpolicy="no-referrer" alt="image-20191122122940130"></p>
+</li>
+
+</ol>
+<p>After extraction there will be only 1 file named ngrok.exe ,click on it</p>
+<p>and go to website and signup for ngrok</p>
+<p>&nbsp;</p>
+<p><img style="zoom: 200%;" alt="image-20191122123645257" src="C:\Users\Akshay Chordia\AppData\Roaming\Typora\typora-user-images\image-20191122123645257.png" data-src="C:\Users\Akshay Chordia\AppData\Roaming\Typora\typora-user-images\image-20191122123645257.png" onerror="this.style.display = 'none';"></p>
+<p>it will look something like this</p>
+<p>Type </p>
+<pre><code class='language-powershell' lang='powershell'>ngrok http 2604
+</code></pre>
+<p><img src="file://C:/Users/Akshay%20Chordia/AppData/Roaming/Typora/typora-user-images/image-20191122124703264.png" referrerpolicy="no-referrer" alt="image-20191122124703264"></p>
+<p>after that it will look like this</p>
+<p>open forwarding URL anywhere on Internet now you can access your file anywhere on internet till your source computer connected to Internet</p>
+<p>&nbsp;</p>
+<p>from next time you have to just open <em>ngrok</em> and type the same command and you will get a new link for that(you can buy its premium to fix the link)</p>
+<p>&nbsp;</p>
+<p>You are done !!</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<h6>												<a href='http://akshay.chourdia@gmail.com'>Akshay Chordia</a></h6>
+<p>&nbsp;</p>
+<p>												</p>
+</body>
+</html>
