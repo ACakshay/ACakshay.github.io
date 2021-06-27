@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Welcome!</title>
+	<style type="text/css">
+		.a
+		{
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%,-100%);
+			font-size: 2.5em;
+			text-align: center;
+		}
+		body
+		{
+			background: #222222;
+			color: white;"
+		}
+	</style>
+</head>
+<body >
+	<span id="ctr"></span>
+	<span id="aa"></span>
+	<div class="a" style="margin: auto;vertical-align: center;">
+	<h1 onclick=restore()>Don't dare to change the TAB</h1>
+	</div>
+
+
+
+<script >
+
+	var ak=0;
+	function restore()
+	{
+		 document.getElementsByTagName("body")[0].style.background = "#222222";
+  document.getElementsByTagName("h1")[0].innerText = "Don't dare to change the TAB";
+	}
+
+	 function play1() {
+                  
+                /* Audio link for notification */
+                var mp3 = '<source src="sound.mp3" type="audio/mpeg">';
+                document.getElementById("aa").innerHTML = 
+                '<audio autoplay="autoplay">' + mp3 + "</audio>";
+            }
+	
+	
+	let siteTitle = '';
+window.addEventListener('blur', () => {
+	play1();
+  siteTitle = document.title;
+  document.title = 'Come back! :c';
+  document.getElementsByTagName("body")[0].style.background = "rgb(200,0,0)";
+  document.getElementsByTagName("h1")[0].innerText = "You changed the tab!, click me to restore";
+
+  
+
+});
+window.addEventListener('focus', () => {
+	play1();
+  document.title = siteTitle;
+    ak=ak+1;
+    if(ak>3)
+    {
+    	alert("you are terminated from test!");
+    	ak=0;
+    }
+
+  document.getElementById("ctr").innerText = ak;
+});
+
+</script>
+</body>
+</html>
